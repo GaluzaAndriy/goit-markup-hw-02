@@ -1,4 +1,10 @@
-.visually-hidden {
+:root {
+  --first-background-color: #ffffff;
+  --first-white-color: #ffffff;
+  --main-font-size: 16px;
+} 
+ 
+ .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -26,7 +32,7 @@ body {
 }
 /*------------- HEADER------------------------*/
 .header {
-  background-color: #ffffff;
+  background-color: var(--first-background-color);
 }
 
 .header-navigation {
@@ -57,7 +63,7 @@ body {
 .header-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -78,7 +84,7 @@ body {
 }
 
 .header-mail {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -90,7 +96,7 @@ body {
 }
 
 .header-tel {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -113,18 +119,18 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--first-white-color);
 }
 
 .hero-btn {
   font-family: "Roboto" sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.19;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--first-white-color);
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -150,7 +156,7 @@ body {
 }
 
 .features-after-title {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -177,7 +183,7 @@ body {
 /*------------- TEAM------------------------*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--first-background-color);
 }
 
 .team-title {
@@ -190,7 +196,7 @@ body {
   color: #2e2f42;
 }
 .team-list {
-  background-color: #ffffff;
+  background-color: var(--first-background-color);
 }
 
 .team-item {
@@ -234,7 +240,7 @@ body {
 }
 
 .footer-text {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
@@ -257,7 +263,7 @@ body {
 .filters-btn {
   font-family: "Roboto" sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.18;
   display: flex;
   align-items: center;
@@ -268,7 +274,7 @@ body {
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  color: #ffffff;
+  color: var(--first-white-color);
   background-color: #4d5ae5;
 }
 
@@ -279,7 +285,7 @@ body {
 }
 
 .services-item {
-  background-color: #ffffff;
+  background-color: var(--first-background-color);
 }
 
 .services-title {
@@ -290,7 +296,7 @@ body {
 }
 
 .services-pre-title {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
