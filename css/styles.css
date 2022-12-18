@@ -2,6 +2,7 @@
   --first-background-color: #ffffff;
   --first-white-color: #ffffff;
   --main-font-size: 16px;
+  --main-font-weigth: 500;
   --main-letter-spacing: 0.02em;
 } 
  
@@ -62,7 +63,7 @@ body {
 }
 
 .header-link {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: var(--main-letter-spacing);
@@ -114,7 +115,7 @@ body {
 }
 
 .hero-title {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -124,7 +125,7 @@ body {
 
 .hero-btn {
   font-family: "Roboto" sans-serif;
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: var(--main-font-size);
   line-height: 1.19;
   display: flex;
@@ -148,7 +149,7 @@ body {
 }
 
 .features-title {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--main-letter-spacing);
@@ -165,7 +166,7 @@ body {
 }
 
 .examples-title {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -187,7 +188,7 @@ body {
 }
 
 .team-title {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -203,7 +204,7 @@ body {
 }
 
 .team-subtitle {
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -262,7 +263,7 @@ body {
 
 .filters-btn {
   font-family: "Roboto" sans-serif;
-  font-weight: 500;
+  font-weight: var(--main-font-weigth);
   font-size: var(--main-font-size);
   line-height: 1.18;
   display: flex;
